@@ -63,42 +63,54 @@ const categories = [
     ],
   },
   {
-    name: 'Software',
+    name: 'Backend Proficiencies',
     icon: 'lni lni-code',
-    title: 'Software',
+    title: 'Backend Proficiencies',
     description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
+    "Node.js, Express.js, MySQL, Sequelize, MongoDB, Mongoose, API development, and more.",
     skills: [
       {
-        icon: 'lni lni-adobe',
-        title: 'adobe',
+        icon: 'lni lni-nodejs',
+        title: 'node.js',
+      },
+      {
+        icon: 'lni lni-database',
+        title: 'database',
       },
       {
         icon: 'lni lni-code',
-        title: 'Code',
+        title: 'code',
       },
       {
-        icon: 'lni lni-sketch',
-        title: 'Sketch'
+        icon: 'lni lni-cloud-download',
+        title: 'cloud download',
       },
      
       
     ],
   },
   {
-    name: 'brands',
+    name: 'lighting',
     icon: 'lni lni-code',
-    title: 'Brands',
+    title: 'Lighting Controls - Programming/Design',
     description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
+    "Advanced Lighting Controls Programming, Commissioning, and Integration. Ability to program and commission a wide variety of lighting control systems including Lutron, Pharos, and more.",
     skills: [
       {
-        icon: 'lni lni-pinterest',
-        title: 'Pinterest',
+        icon: 'lni lni-bulb',
+        title: 'Lighting',
       },
       {
-        icon: 'lni lni-crop',
-        title: 'Crop',
+        icon: 'lni lni-laptop',
+        title: 'Programming & Design',
+      },
+      {
+        icon: 'lni lni-bolt-alt',
+        title: 'electrical',
+      },
+      {
+        icon: 'lni lni-power-switch',
+        title: 'power switch',
       },
       
     ],
