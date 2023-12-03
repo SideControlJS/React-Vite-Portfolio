@@ -23,8 +23,8 @@ const Achievement = () => {
         <div className="row">
           <div className="col-lg-10 offset-lg-1 col-md-12 col-12">
             <div className="title">
-              <h2>"Lorem ipsum dolor sit amet, consectetur adipiscing"</h2>
-              <p>Fusce at libero id massa ornare molestie sed eu tellus.</p>
+              <h2>“The way to succeed is to double your failure rate.”</h2>
+              <p>—Thomas J. Watson, pioneer in the development computing equipment for IBM.</p>
             </div>
           </div>
         </div>
