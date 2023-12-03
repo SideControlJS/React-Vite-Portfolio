@@ -15,9 +15,9 @@ const name = {
 
 // Display your job title or skills or whatever you want in the typewriter
 const typeWriterText = [
-  'Photographer...',
-  'UX/UI designer...',
-  'Cool dude...'  
+  'Web Developer...',
+  'Lighting Controls Programmer...',
+  'Brazilian Jiu Jitsu Practitioner...', 
 ];
 
 // Social media profiles buttons
@@ -103,16 +103,16 @@ const categories = [
   
 ];
 
-// Here you can give in your achiements in a number counter animation
+//achiements in a number counter animation
 const achievements = [
   { word: 'bullshit', value: 100, unit: '%' },
-  { word: 'finished projects', value: 7500, unit: '' },
+  { word: 'finished projects', value: 3, unit: '' },
   { word: 'experience', value: 20, unit: ' years' },
 ];
 
 
 
-// If you already have some projects, fill the url 
+// project urls
 const projectData = [
   {
     title: 'Project 1',
