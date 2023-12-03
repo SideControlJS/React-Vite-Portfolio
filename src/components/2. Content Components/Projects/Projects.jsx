@@ -10,13 +10,13 @@ const Projects = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1, // Aangepaste waarde
+    slidesToShow: 1, // Number of slides per row
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 768, // mobile breakpoint
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1, 
         },
       },
       {
@@ -33,13 +33,13 @@ const Projects = () => {
     if (isImageURL(project.demoUrl)) {
       return <img src={project.demoUrl} alt="Project Thumbnail" />;
     } else {
-      return <iframe src={project.demoUrl} title="Project Demo" allowFullScreen />;
+      return <iframe src={project.demoUrl} title="Project Demo" allowFullScreen />; // allowFullScreen allows the iframe to be viewed in fullscreen
     }
   };
 
   const isImageURL = (url) => {
     const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif'];
-    return imageExtensions.some((extension) => url.toLowerCase().endsWith(extension));
+    return imageExtensions.some((extension) => url.toLowerCase().endsWith(extension)); // returns true if the url ends with any of the extensions in the array
   };
 
   return (

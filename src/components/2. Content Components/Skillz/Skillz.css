@@ -20,9 +20,9 @@
   border-radius: 6px;
   position: relative;
   margin-top: 30px;
-  border: 1px solid var(--medium-color);
+  border: 1px solid var(--accent-color);
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
-  box-shadow: 0px 4px 6px var(--medium-color);
+  box-shadow: 0px 4px 6px var(--dark-color);
 }
 
 .skills .single-feature:hover {
