@@ -25,24 +25,13 @@ const socialProfiles = [
   {
     name: 'LinkedIn',
     icon: 'lni lni-linkedin',
-    url: 'https://www.linkedin.com/in/christoph-pfrommer',
+    url: 'https://www.linkedin.com/in/jesselare',
   },
   {
     name: 'GitHub',
     icon: 'lni lni-github',
-    url: 'https://github.com/Pfrommer1982',
+    url: 'https://github.com/SideControlJS',
   },
-  //   Add more social profiles here, it will automatically add more link-buttons with icons (if available)
-  //   {
-  //     name: 'Twitter',
-  //     icon: 'lni lni-twitter',
-  //     url: 'https://twitter.com/your-username',
-  //   },
-  //   {
-  //     name: 'Facebook',
-  //     icon: 'lni lni-facebook',
-  //     url: 'https://facebook.com/your-username',
-  //   },
 ];
 
 //////////////////////////////////////// ** CONTENT SECTION **//////////////////////////////////////////////////
