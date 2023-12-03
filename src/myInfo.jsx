@@ -143,9 +143,9 @@ const projectData = [
 
 // You can tell something about yourself in the infotext.
 const aboutMeText = {
-  infotext: `Hi there, I'm Jonathan. With 20 years of experience as photographer Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.
+  infotext: `My name is Jesse Lare. With a decade of experience in the lighting industry, I have honed my expertise in creating sophisticated lighting control systems that enhance and transform commercial spaces. Now, I'm expanding my craft into the realm of full stack web development. My unique blend of skills enables me to offer comprehensive solutions that bridge the gap between physical infrastructure and digital interfaces. 
     `,
-  power_slogan: `Lorem ipsum dolor sit amet`,
+  power_slogan: `"There is no losing - you either win or learn."`,
 };
 
 // For contact form: You need to make an account on emailjs.com
@@ -154,9 +154,9 @@ const aboutMeText = {
 // Fill them here and it will automatically work. 
 
 const emailConfig = {
-  serviceID: 'service_XXXXXXX',
-  templateID: 'template_XXXXXXXX',
-  userID: 'XXXXXXXXXXXX',
+  serviceID: 'service_rrw05nb',
+  templateID: 'template_w8nj8te',
+  userID: 'bTD3lWAARkkbGFXkn',
 };
 
 export {
