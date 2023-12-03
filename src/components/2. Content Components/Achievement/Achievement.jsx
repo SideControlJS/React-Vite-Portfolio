@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import './Achievement.css';
-import { achievements } from '../../../your_info';
+import { achievements } from '../../../myInfo';
 
 const Achievement = () => {
   const [isVisible, setIsVisible] = useState(false);

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { typeWriterText } from '../../../your_info'
+import { typeWriterText } from '../../../myInfo'
 import './Typewriter.css';
 
 

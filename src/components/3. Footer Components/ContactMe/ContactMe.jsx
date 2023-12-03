@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import './ContactMe.css';
 import emailjs from 'emailjs-com';
-import { emailConfig } from '../../../your_info';
+import { emailConfig } from '../../../myInfo';
 
 const ContactMe = () => {
   const form = useRef();

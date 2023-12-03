@@ -1,9 +1,9 @@
 import React from 'react';
-import { name, socialProfiles } from '../../../your_info';
+import { name, socialProfiles } from '../../../myInfo';
 import Navbar from '../Navbar/Navbar';
 import Typewriter from '../Typewriter/Typewriter';
 import './Hero.css';
-import { backgroundImageUrl } from '../../../your_info';
+import { backgroundImageUrl } from '../../../myInfo';
 
 
 const Hero = () => {

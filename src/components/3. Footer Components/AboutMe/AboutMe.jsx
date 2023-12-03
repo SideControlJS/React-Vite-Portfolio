@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
 import ContactMe from '../ContactMe/ContactMe';
-import { aboutMeText } from '../../../your_info';
+import { aboutMeText } from '../../../myInfo';
 
 const AboutMe = () => {
   const { infotext , power_slogan } = aboutMeText;

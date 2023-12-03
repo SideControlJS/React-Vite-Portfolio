@@ -14,7 +14,7 @@ import AboutMe from './components/3. Footer Components/AboutMe/AboutMe';
 
 // 4. Utility Components
 import Spinner from './components/4. Utility Components/Spinner/Spinner';
-import { name } from './your_info';
+import { name } from './myInfo';
 import ScrollToTopButton from './components/4. Utility Components/ScrollToTopButton/ScrollToTopButton';
 
 

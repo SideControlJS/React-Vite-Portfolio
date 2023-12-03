@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Skillz.css';
 import WOW from 'wow.js';
-import { categories } from '../../../your_info';
+import { categories } from '../../../myInfo';
 
 const Skillz = () => {
     useEffect(() => {
