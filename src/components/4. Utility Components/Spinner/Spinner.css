@@ -32,7 +32,7 @@
 
 .pulse-loader {
   position: relative;
-  border: 3px solid var(--highlight-color);
+  border: 3px solid var(--medium-color);
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -46,7 +46,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2em;
-  color: var(--highlight-color);
+  color: var(--medium-color);
 }
 
 @keyframes pulsate {
