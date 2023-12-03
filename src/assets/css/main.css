@@ -1,63 +1,44 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Oswald:wght@200&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Oswald:wght@200&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
 :root {
-  --light-white: #f2fbfc ;
-  --light-color: #ffffff;
-  --medium-color: #B9BAB3;
-  --dark-color: #001F26;
-  --highlight-color: #cfe5eb;
-  --accent-color: #6d8a92;
-
+  --dark-bg: #121212;
+  --dark-secondary-bg: #1e1e1e;
+  --light-grey: #e0e0e0;
+  --medium-grey: #b0b0b0;
+  --dark-color: #ffffff;
+  --highlight-color: #64ffda;
+  --accent-color: #bb86fc;
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
- 
 }
 
 body {
-  
-  letter-spacing: 0.2em;
+  background-color: var(--dark-bg);
+  color: var(--light-grey);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05em;
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
-  
 }
 
 h1, h2, h3 {
-  font-family: 'Alex Brush', sans-serif;
-}
-
-p {
-  font-family: 'Oswald', sans-serif;
-}
-
-/* h2  {
   font-family: 'Roboto', sans-serif;
-} */
-
-h3 {
-  font-family: 'PT Sans', sans-serif;
+  color: var(--dark-color);
 }
 
-
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .container {
-    width: 450px;
-  }
+p, li {
+  font-family: 'Roboto Mono', monospace;
+  color: var(--medium-grey);
 }
 
 .section {
@@ -66,7 +47,12 @@ h3 {
   position: relative;
 }
 
-
+/* Responsive Styles */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section {
@@ -80,4 +66,29 @@ h3 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+}
+
+/* Additional Styling */
+a {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+/* Button and Interactive Elements */
+button {
+  background-color: var(--accent-color);
+  color: var(--dark-bg);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--highlight-color);
 }
