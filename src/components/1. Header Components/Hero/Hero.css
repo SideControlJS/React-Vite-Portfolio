@@ -95,7 +95,7 @@ h1.last-name {
 .hero-area .hero-content p {
   margin-top: 2.8em;
   font-size: 2em;
-  color: var(--light-color);
+  color: var(--highlight-color);
 }
 
 .hero-area .hero-content {
@@ -116,9 +116,10 @@ h1.last-name {
 
 .hero-area .hero-content .btn:hover {
   background-color: var(--highlight-color);
-  color: var(--light-color);
+  color: var(--accent-color);
   text-align: center;
 }
+
 
 @keyframes pulse-border {
   0% {
