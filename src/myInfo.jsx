@@ -38,23 +38,27 @@ const socialProfiles = [
 
 const categories = [
   {
-    name: 'Full Stack',
+    name: 'Frontend Proficiencies',
     icon: 'lni lni-code',
-    title: 'MongoDB',
+    title: 'Frontend Proficiencies',
     description:
-      "Expertise in database design, document modeling, and building efficient queries. ",
+      "HTML, CSS, JavaScript, jQuery, React, Bootstrap, Tailwind, and more.",
     skills: [
       {
-        icon: 'lni lni-mongodb', 
-        title: 'MongoDB',
+        icon: 'lni lni-html5', 
+        title: 'HTML5',
       },
       {
-        icon: 'lni lni-database',
-        title: 'database',
+        icon: 'lni lni-css3',
+        title: 'CSS3',
       },
       {
-        icon: 'lni lni-nodejs',
-        title: 'Node.js',
+        icon: 'lni lni-javascript',
+        title: 'javascript',
+      },
+      {
+        icon: 'lni lni-react',
+        title: 'react',
       },
     ],
   },
