@@ -1,6 +1,6 @@
 {
-  "name": "Complete.Portfolio.Template",
-  "private": true,
+  "name": "react-portfolio",
+  "private": "true",
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
