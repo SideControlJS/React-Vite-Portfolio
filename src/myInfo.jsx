@@ -38,23 +38,23 @@ const socialProfiles = [
 
 const categories = [
   {
-    name: 'Web Development',
+    name: 'Full Stack',
     icon: 'lni lni-code',
-    title: 'Photography',
+    title: 'MongoDB',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
+      "Expertise in database design, document modeling, and building efficient queries. ",
     skills: [
       {
-        icon: 'lni lni-camera',
-        title: 'HTML5',
+        icon: 'lni lni-mongodb', 
+        title: 'MongoDB',
       },
       {
-        icon: 'lni lni-certificate',
-        title: 'CSS3',
+        icon: 'lni lni-database',
+        title: 'database',
       },
       {
-        icon: 'lni lni-instagram',
-        title: 'JavaScript',
+        icon: 'lni lni-nodejs',
+        title: 'Node.js',
       },
     ],
   },
