@@ -7,8 +7,8 @@ const backgroundImageUrl = 'https://images.wallpaperscraft.com/image/single/man_
 
 // Enter here your first and last name
 const name = {
-  firstname: 'Jonathan',
-  lastname: 'Dominion',
+  firstname: 'Jesse',
+  lastname: 'Lare',
 // Enter as url a link where your resume can be downloaded ( dropbox, OneDrive, ect )
   url: 'https://www.google.com',
 };
