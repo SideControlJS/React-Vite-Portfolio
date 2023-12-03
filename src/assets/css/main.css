@@ -4,11 +4,11 @@
 :root {
   --dark-bg: #121212;
   --dark-secondary-bg: #1e1e1e;
-  --light-grey: #e0e0e0;
-  --medium-grey: #b0b0b0;
-  --dark-color: #ffffff;
-  --highlight-color: #64ffda;
-  --accent-color: #bb86fc;
+  --light-grey: #857777;
+  --medium-grey: #696666;
+  --dark-color: #d3d0e0;
+  --highlight-color: #3c3649;
+  --accent-color: #a59fad;
 }
 
 * {
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  background-color: var(--dark-bg);
+  background-color: #121212;
   color: var(--light-grey);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.05em;
@@ -80,7 +80,7 @@ a:hover {
 
 /* Button and Interactive Elements */
 button {
-  background-color: var(--accent-color);
+  background-color: var(--dark-bg);
   color: var(--dark-bg);
   border: none;
   padding: 10px 20px;

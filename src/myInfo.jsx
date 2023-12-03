@@ -2,7 +2,7 @@
 
 // your_info.jsx
 
-const backgroundImageUrl = 'https://images.wallpaperscraft.com/image/single/man_photographer_roof_146991_3840x2400.jpg';
+const backgroundImageUrl = 'https://i.pinimg.com/originals/b9/c3/0f/b9c30faa25901357fb75b893705adcad.jpg';
 
 
 // Enter here your first and last name
@@ -15,9 +15,8 @@ const name = {
 
 // Display your job title or skills or whatever you want in the typewriter
 const typeWriterText = [
-  'Web Developer...',
-  'Lighting Controls Programmer...',
-  'Brazilian Jiu Jitsu Practitioner...', 
+  'Web Development...',
+  'Lighting Controls...',
 ];
 
 // Social media profiles buttons
