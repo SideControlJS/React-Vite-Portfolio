@@ -12,7 +12,7 @@ My React portfolio for my UCF Web Development Bootamp.
 - **Responsive Design:** Crafted to provide an optimal viewing experience across a wide range of devices.
 - **Interactive UI:** Engaging user interface with attention to usability and aesthetic appeal.
 - **Portfolio Section:** Showcasing projects with descriptions, images, and links to live sites and source code repositories.
-- **Contact Form:** A placeholder contact form set up to be linked with a backend service in the future.
+- **Contact Form:** Used emailjs to set up contact submission form.
 - **Professional About Section:** Detailed biography and professional avatar, highlighting my journey and expertise.
 - **Dynamic Footer:** Links to professional profiles and additional resources.
 
