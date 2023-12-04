@@ -2,9 +2,11 @@
 
 Welcome to my professional portfolio, built using React. This portfolio showcases my work as a web developer and reflects my skills, projects, and experiences in the industry.
 
+[!Link to my deployed react portfolio](https://jl-react-portfolio.netlify.app/)
+
 ## Description
 
-My React portfolio for my UCF Web Development Bootamp. This React portfolio was built starting with a template from a GitHub repository ( [!Pfrommer1982](https://github.com/Pfrommer1982/Complete_Portfolio) ), which provided a solid starting point. It represents a fusion of the template's robust framework with my unique content and style adjustments, resulting in a personalized representation of my professional presence online.
+My React portfolio for my UCF Web Development Bootamp. This React portfolio was built starting with a template from a GitHub repository ( ![Pfrommer1982](https://github.com/Pfrommer1982/Complete_Portfolio) ), which provided a solid starting point. It represents a fusion of the template's robust framework with my unique content and style adjustments, resulting in a personalized representation of my professional presence online.
 
 
 ## Features
