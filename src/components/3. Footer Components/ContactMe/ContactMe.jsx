@@ -31,8 +31,8 @@ const ContactMe = () => {
           <form ref={form} onSubmit={sendEmail} className='contact-form'>
             <h5 className='title'>Contact Me</h5>
             <p className='description'>
-              Feel free to contact me if you like to reach out or have any
-              questions.
+              Feel free to contact me if you have any
+              questions or would like to inquire about services.
             </p>
             <div>
               <input
