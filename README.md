@@ -32,4 +32,4 @@ This portfolio is deployed on Netlify, leveraging its CI/CD pipeline for automat
 
 ## Acknowledgements
 
-- Template Repo: [!Pfrommer1982](https://github.com/Pfrommer1982/Complete_Portfolio)
+- Template Repo: [Pfrommer1982](https://github.com/Pfrommer1982/Complete_Portfolio)
