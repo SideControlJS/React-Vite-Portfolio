@@ -2,6 +2,8 @@
 
 [Link to my deployed react portfolio](https://jl-react-portfolio.netlify.app/)
 
+![Deployed App](./src/assets/images/app_screenshot.png)
+
 ## Description
 
 My React portfolio for my UCF Web Development Bootamp. This React portfolio was started using a template (see acknowledgments section), however, there were several files refactored. React/JavaScript as well as all styling was updated. Below is a breakdown of the refactoring.
