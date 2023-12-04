@@ -50,10 +50,10 @@ const Projects = () => {
             Projects
           </h3>
           <h2 className="wow fadeInUp" data-wow-delay=".4s">
-            Lorem Ipsum
+            UCF Full Stack Web Development Bootcamp
           </h2>
           <p className="wow fadeInUp" data-wow-delay=".6s">
-            A diverse set of skills and technologies I have acquired to develop impactful solutions
+            A few projects and assignments from the UCF Full Stack Web Development Bootcamp. Demonstrating my proficiency in HTML, CSS, JavaScript, Node.js, Express.js, React.js, and more.
           </p>
         </div>
         <Slider {...settings}>

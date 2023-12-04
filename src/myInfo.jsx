@@ -120,9 +120,9 @@ const categories = [
 
 //achiements in a number counter animation
 const achievements = [
-  { word: 'bullshit', value: 100, unit: '%' },
+  { word: 'UCF Full Stack Bootcamp', value: 99, unit: '%' },
   { word: 'finished projects', value: 3, unit: '' },
-  { word: 'experience', value: 20, unit: ' years' },
+  { word: 'experience', value: 1, unit: ' year' },
 ];
 
 
@@ -130,24 +130,24 @@ const achievements = [
 // project urls
 const projectData = [
   {
-    title: 'Project 1',
-    description: 'Description of Project 1',
-    demoUrl: 'https://wallpaperaccess.com/full/530366.jpg' 
+    title: 'Note Taker App',
+    description: 'Note Taker App is a simple application that allows the user to create, save, and delete notes. The application uses an Express.js back end and saves and retrieves note data from a JSON file.',
+    demoUrl: 'https://jl-note-taker-bdab7ee7b58b.herokuapp.com/' 
   },
   {
-    title: 'Project 2',
-    description: 'Description of Project 2',
-    demoUrl: 'https://wallpapercave.com/wp/wp1933134.jpg' 
+    title: 'Weather Dashboard',
+    description: 'The Weather Dashboard is an intuitive and user-friendly app designed to provide the user with current weather conditions and a 5-day forecast for any city in the world. The app utilizes the OpenWeather API to retrieve weather data for cities.',
+    demoUrl: 'https://sidecontroljs.github.io/me-weather/' 
   },
   {
-    title: 'Project 3',
-    description: 'Description of Project 3',
-    demoUrl: 'https://c4.wallpaperflare.com/wallpaper/43/399/700/photography-camera-birds-animals-wallpaper-preview.jpg' 
+    title: '"Grab My Password"',
+    description: 'An app to store your password for any website you want.',
+    demoUrl: 'https://grab-my-password-23e7faf05060.herokuapp.com/' 
   },
   {
-    title: 'Project 2',
-    description: 'Description of Project 2',
-    demoUrl: 'src/assets/images/Jonathan Dominion Template.gif' 
+    title: '"Reel-Tracks"',
+    description: 'The goal of this project was to develop an app that allowed users to search for albums from their favorite movies.',
+    demoUrl: 'https://ricky-sama.github.io/Reel-Tracks/' 
   },
   
 ];
