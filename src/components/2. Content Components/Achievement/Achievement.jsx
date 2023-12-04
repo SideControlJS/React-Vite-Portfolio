@@ -1,8 +1,23 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import './Achievement.css';
 import { achievements } from '../../../myInfo';
+
+// changes included in this snippet: extracted AchievementItem subcomponent, simplified useEffect hook, and added useInView hook, moved ref to div element, and added isVisible prop to AchievementItem subcomponent
+const AchievementItem = ({ info, isVisible }) => (
+  <div className="col-lg-4 col-md-4 col-12">
+    <div className="single-achievement">
+      {isVisible && (
+        <h3 className="counter">
+          <CountUp start={0} end={info.value} duration={4} separator="," />
+          <span>{info.unit}</span>
+        </h3>
+      )}
+      <p>{info.word}</p>
+    </div>
+  </div>
+);
 
 const Achievement = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -12,9 +27,7 @@ const Achievement = () => {
   });
 
   useEffect(() => {
-    if (inView) {
-      setIsVisible(true);
-    }
+    setIsVisible(inView);
   }, [inView]);
 
   return (
@@ -30,19 +43,9 @@ const Achievement = () => {
         </div>
         <div className="row">
           <div className="col-lg-8 offset-lg-2 col-md-12 col-12">
-            <div className="row">
+            <div className="row" ref={ref}>
               {achievements.map((info, index) => (
-                <div className="col-lg-4 col-md-4 col-12" key={index}>
-                  <div ref={ref} className="single-achievement wow fadeInUp" data-wow-delay={(index * 0.2) + 's'}>
-                    {isVisible && (
-                      <h3 className="counter">
-                        <CountUp start={0} end={info.value} duration={4} separator="," />
-                        <span>{info.unit}</span>
-                      </h3>
-                    )}
-                    <p>{info.word}</p>
-                  </div>
-                </div>
+                <AchievementItem key={index} info={info} isVisible={isVisible} />
               ))}
             </div>
           </div>
@@ -53,3 +56,4 @@ const Achievement = () => {
 };
 
 export default Achievement;
+
